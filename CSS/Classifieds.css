@@ -1,0 +1,121 @@
+/* CSS Document */
+@media (max-width: 800px) and (orientation:portrait) {
+.box {
+	display: inline-block;
+	width: 99%;
+	height: 132px;
+	margin: 0.7%;
+	background: #24201B;
+	opacity: 0.8;
+	border-radius: 10px;
+		display: inline-block;
+}}
+@media (min-width: 809px) and (max-height: 1279px) and (orientation:landscape)  {
+.box {
+	display: inline-block;
+	width: 48%;
+	height: 132px;
+	margin: 0.7%;
+	background: #24201B;
+	opacity: 0.8;
+	 float: left;
+	 overflow:hidden;
+	border-radius: 10px;
+		display: inline-block;
+}}
+@media (min-width: 1280px) and (orientation:landscape){
+.box {
+	display: inline-block;
+	width: 31%;
+	height: 132px;
+	margin: 0.7%;
+	background: #24201B;
+	opacity: 0.8;
+	 float: left;
+	 overflow:hidden;
+	border-radius: 10px;
+		display: inline-block;
+}}
+
+	@media all and (orientation:portrait) {
+.classcontent {
+	margin: 6px;
+	color: #DAD6D4;
+	display: inline-block;
+	vertical-align:top;
+}
+.classimage {
+	margin-top:6px;
+	margin-left: 6px;
+	display: inline-block;
+	height: 90%;
+	width: height;
+	background: #3C362F;
+	border-radius: 10px;
+}
+.classTitle{
+		color: rgb(178,178,178);
+		font-family: Arial, Helvetica, sans-serif;
+
+		font-size:24px;
+	}
+	.classDescription1{
+		color: #756B5E;
+			font-family: Arial, Helvetica, sans-serif;
+
+		font-size:20px;
+	}
+	.classDescription2{
+		color: #756B5E;
+			font-family: Arial, Helvetica, sans-serif;
+
+		font-size:15px;
+	}
+	.classKind{
+		color: #756B5E;
+			font-family: Arial, Helvetica, sans-serif;
+
+		font-size:12px;
+	}
+}
+@media all and (orientation:Landscape) {
+.classcontent {
+	margin: 6px;
+	color: #DAD6D4;
+	display: inline-block;
+	vertical-align:top;
+}
+.classimage {
+	margin-top:7px;
+	margin-left: 6px;
+	display: inline-block;
+	height: 90%;
+	width: height;
+	background: #3C362F;
+	border-radius: 10px;
+}
+.classTitle{
+		color: rgb(178,178,178);
+		font-family: Arial, Helvetica, sans-serif;
+
+		font-size:30px;
+	}
+	.classDescription1{
+		color: #756B5E;
+			font-family: Arial, Helvetica, sans-serif;
+
+		font-size:24px;
+	}
+	.classDescription2{
+		color: #756B5E;
+			font-family: Arial, Helvetica, sans-serif;
+
+		font-size:20px;
+	}
+	.classKind{
+		color: #756B5E;
+			font-family: Arial, Helvetica, sans-serif;
+
+		font-size:16px;
+	}
+}

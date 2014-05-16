@@ -1,0 +1,34 @@
+/* CSS Document */
+#body {
+	margin: 0px;
+
+}
+.topnav {
+	width: 100%;
+	position: fixed;
+	height: 44px;
+	background: #25292b;
+	z-index:2;
+}
+.textnav {
+	color: #DAD6D4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 34px;
+	float: left;
+	margin-right: 6px;
+	display: inline-block;
+}
+.buttonnav {
+	display: inline-block;
+	float: right;
+	height: 44px;
+	width: 44px;
+}
+.content {
+	background-color: #C2660A;
+	overflow: auto;
+	padding: 0;
+	position : absolute;
+	top : 44px;
+	display: inline-block;
+}
